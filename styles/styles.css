@@ -1,8 +1,13 @@
 nav a {
-    color: white;
+    color: black;
     display: block;
     padding: 20px;
     background: fixed steelblue;
+}
+
+title {
+    color: steelblue;
+    text-align: center;
 }
 
 h1 {
@@ -17,8 +22,13 @@ img {
     box-shadow: 0 0 30px white;
 }
 
-p {
+aside p {
     padding: 0;
+}
+
+main p {
+    color: black;
+    text-align: center;
 }
 
 main {
@@ -30,7 +40,7 @@ aside {
     border: 1px solid steelblue;
     padding: 2px;
     background-color: steelblue;
-    color: white;
+    color: black;
     text-align: center;
 }
 
