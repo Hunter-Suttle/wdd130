@@ -2,7 +2,7 @@ nav a {
     color: black;
     display: block;
     padding: 20px;
-    background: fixed steelblue;
+    background: fixed whitesmoke;
 }
 
 title {
@@ -29,6 +29,7 @@ aside p {
 main p {
     color: black;
     text-align: center;
+    font-size: xx-large;
 }
 
 main {
@@ -36,11 +37,7 @@ main {
 }
 
 aside {
-    margin: 10px;
-    border: 1px solid steelblue;
-    padding: 2px;
-    background-color: steelblue;
-    color: black;
+    width: 20em;
     text-align: center;
 }
 
@@ -52,10 +49,40 @@ aside img {
 main img{
     width: 150px;
     height: auto;
+    float: right;
 }
 
 footer {
     margin-top: 1em;
     border-top: 1px solid steelblue;
     text-align: center;
+}
+
+* {
+    margin: 1px;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: whitesmoke;
+    color: black;
+}
+
+aside h2 {
+    position: relative;
+    top: auto;
+    left: auto;
+}
+
+main ul {
+    color: black;
+    display: block;
+    padding: 20px;
+    background: fixed whitesmoke;
 }
