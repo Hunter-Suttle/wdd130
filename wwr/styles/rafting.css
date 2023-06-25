@@ -1,0 +1,90 @@
+@import url(https://fonts.google.com/specimen/Montserrat);
+
+@import url(https://fonts.google.com/specimen/Kanit);
+
+:root {
+    --primary-color: #588157;
+    --secondary-color: #A3B18A;
+    --accent-1: #DAD7CD;
+    --accent-2: #344E41;
+
+    --heading-font: 'Kanit', specimen;
+    --paragraph-font: 'Montserrat', specimen;
+
+    --nav-background-color: #588157;
+    --nav-link-color: #DAD7CD;
+    --nav-hover-link-color: #A3B18A;
+    --nav-hover-background-color: #344E41;
+}
+
+header nav {
+    position: absolute;
+    top: 25px;
+    right: 110px;
+    padding: 25px;
+    border: 25px;
+    background-color: var(--accent-1);
+}
+
+h1 h2 h3 h4 h5 h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+p {
+    padding: 25px;
+    font-family: var(--accent-2);
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    max-width: 1200px;
+}
+  
+.hero img {
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 0;
+  left: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    width: 350px;
+    height: auto;
+    top: 93px;
+    left: auto;
+    padding: 25px;
+    border: 25px;
+    background-color: var(--primary-color);
+}
+.hero article {
+    position: absolute;
+    width: 350px;
+    height: auto;
+    top: 180px;
+    left: auto;
+    padding: 25px;
+    border: 25px;
+    background-color: var(--primary-color);
+}
+
+.hero article p {
+    padding: 25px;
+    border: 25px;
+    background-color: var(--accent-1);
+}
+
+.hero section img {
+    width: 350px;
+    height: auto;
+}
+
+footer img {
+    width: 80px;
+    height: 80px;
+}
