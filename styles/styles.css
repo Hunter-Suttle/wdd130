@@ -41,6 +41,7 @@ main p {
     color: black;
     text-align: 0;
     font-size: x-large;
+    margin-top: 20px;
 }
 
 main {
@@ -55,12 +56,13 @@ aside {
 
 aside img {
     width: 18rem;
-    height: 20rem;
+    height: 18rem;
     align-items: center;
 }
 
 main img{
     float: right;
+    margin-top: 20px;
 }
 
 header, .grid, footer {
@@ -89,7 +91,7 @@ aside {
     position: relative;
     grid-column: 1/2;
     grid-row: 1/2;
-    height: 30rem;
+    height: 28rem;
 }
 
 * {
