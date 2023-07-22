@@ -47,8 +47,8 @@ a {
     position: absolute;
     width: 350px;
     height: auto;
-    top: 93px;
-    left: auto;
+    top: 187px;
+    left: 8px;
     padding: 25px;
     border: 25px;
     background-color: var(--primary-color);
@@ -57,8 +57,8 @@ a {
     position: absolute;
     width: 350px;
     height: auto;
-    top: 180px;
-    left: auto;
+    top: 287px;
+    left: 8px;
     padding: 25px;
     border: 25px;
     background-color: var(--primary-color);
@@ -66,6 +66,7 @@ a {
 
 .hero article p {
     float: left;
+    left: 1px;
     padding: 25px;
     border: 25px;
     background-color: var(--accent-1);
@@ -84,6 +85,7 @@ a {
 
  .history p {
     width: 40%;
+    left: 5px;
  }
 
  .history img {
