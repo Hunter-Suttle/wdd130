@@ -188,6 +188,12 @@ iframe {
   margin: 25px;
   }
 
+  h2 {
+    position: relative;
+    display: flex;
+    left: 25px;
+  }
+
   h1 {
     position: absolute;
     width: 250px;
@@ -201,7 +207,10 @@ iframe {
 
   p {
     position: relative;
-    left: -50px;
+    align-self: center;
+    justify-self: center;
+    float: left;
+    left: 0px;
     padding: 25px;
     border: 25px;
   }
@@ -219,6 +228,16 @@ iframe {
 
   a {
     color: black;
+  }
+
+  table {
+    border-collapse: separate;
+    border-spacing: 0px 0;
+  }
+
+  th, td {
+    border: 1px solid black;
+    width: 220px;
   }
 
 
