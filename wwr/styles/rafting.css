@@ -108,6 +108,7 @@ footer p {
     width: 75%;
     height: auto;
     align-self: center;
+    left: 25px;
 }
 
 footer img {
@@ -169,16 +170,45 @@ section p {
 }
 
 iframe {
-    max-width: fit-content;
-    align-self: center
+  display: flex;
+  max-width: 1200px;
+  align-self: center;
+  height: 250px;
+  justify-self: flex-end;
 }
 
-div figure img {
-    display: grid;
-    grid-template-columns: repeat(3);
-    width: 33%;
-    float: left;
-}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #A3B18A;
+  padding: 25px;
+  margin: 25px;
+  }
+
+  h1 {
+    position: absolute;
+    width: 250px;
+    height: auto;
+    top: 225px;
+    left: 50px;
+    padding: 25px;
+    border: 25px;
+    background-color: var(--primary-color);
+  }
+
+  p {
+    position: relative;
+    left: -50px;
+    padding: 25px;
+    border: 25px;
+  }
+
+  img {
+    width: 250px;
+    height: 200px;
+  }
+
 
 form {
     display: flex;
