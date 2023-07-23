@@ -192,6 +192,7 @@ iframe {
     position: relative;
     display: flex;
     left: 25px;
+    margin: 15px;
   }
 
   h1 {
@@ -220,10 +221,11 @@ iframe {
     height: 200px;
   }
 
-  button {
+  a {
     width: 250px;
     height: 50px;
-    background-color: #588157;
+    background-color: whitesmoke;
+    margin: 10px;
   }
 
   a {
@@ -317,4 +319,22 @@ form {
     color: black;
     font-size: 30px;
     text-align: center;
+  }
+
+.super {
+  background-color: rgba(128, 128, 128, 0.8);
+  width: 1144px;
+  height: 150px;
+  color: white;
+  position: absolute;
+  top: 208px;
+  left: 8px;
+  right: 0;
+  padding: 20px;
+  text-align: center;
+  font-size: 2rem;
+  }
+
+  p {
+    left: 35px;
   }
